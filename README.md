@@ -1,1 +1,1 @@
-# Cordova Plugin Zen Core Ionic Example
+# Cordova Plugin Zen Core's Ionic Example

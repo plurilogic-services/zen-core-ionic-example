@@ -1,0 +1,18 @@
+<h1>Students</h1>
+<ion-icon class="add" name="add-circle-outline" [routerLink]="['/student-add']"></ion-icon>
+<div class="student header">
+  <span class="index">ID</span>
+  <span>First name</span>
+  <span>Last name</span>
+  <span>School name</span>
+  <span class="grade">Grade</span>
+  <span class="delete"></span>
+</div>
+<div class="student" *ngFor="let student of (students | async)">
+  <span class="index">{{ student.studentId }}</span>
+  <span>{{ student.firstName }}</span>
+  <span>{{ student.lastName }}</span>
+  <span>{{ student.schoolName }}</span>
+  <span class="grade">{{ student.grade | date }}</span>
+  <ion-icon class="delete" name="close-circle" (click)="doDelete(student.studentId)"></ion-icon>
+</div>

@@ -1,0 +1,39 @@
+:host {
+    font-size: 3.2vw;
+    margin: 2vw;
+    h1 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    ion-icon.add {
+        position: fixed;
+        right: 4.4vw;
+        bottom: 4.4vw;
+        font-size: 11.2vw;
+    }
+    justify-content: flex-start;
+    .student {
+        display: flex;
+        justify-content: space-around;
+        &.header {
+            font-weight: bold;
+        }
+        :not(:last-child) {
+            border-bottom: 1px solid lightgray;
+            padding-bottom: 8px;
+            margin-bottom: 8px;
+        }
+        span {
+            flex: 0.216667;
+        }
+        .index {
+            flex: 0.05;
+        }
+        .grade {
+            flex: 0.25;
+        }
+        .delete {
+            flex: 0.05;
+        }
+    }
+}

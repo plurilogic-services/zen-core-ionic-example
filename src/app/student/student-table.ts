@@ -1,6 +1,6 @@
 import {
     BtrieveFileAttributes, BtrieveIndexAttributes, Btrieve, BtrieveKeySegment, BtrieveFile, BtrieveClient
-} from 'cordova-plugin-actian-zen-core/www';
+} from 'cordova-plugin-actian-zen-core-demo/www';
 import { StudentRecord } from './student-record';
 import { BtrieveHelper } from '../btrieve-helper';
 

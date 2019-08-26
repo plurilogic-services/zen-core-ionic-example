@@ -1,7 +1,7 @@
 import { Injectable, OnInit } from '@angular/core';
 import { StudentTable } from './student-table';
 import { StudentRecord } from './student-record';
-import { Btrieve } from 'cordova-plugin-actian-zen-core/www';
+import { Btrieve } from 'cordova-plugin-actian-zen-core-demo/www';
 import { Platform } from '@ionic/angular';
 
 @Injectable({
